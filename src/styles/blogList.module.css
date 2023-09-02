@@ -7,7 +7,7 @@
 .twoColumnBlogList {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 50px;
 }
 
 @media (min-width: 769px) and (max-width: 1120px) {
