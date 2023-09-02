@@ -1,0 +1,54 @@
+.mainVisualInner {
+  position: relative;
+  height: 50vw;
+}
+
+@media (min-width: 769px) and (max-width: 1120px) {
+  .mainVisualInner {
+    height: 60vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainVisualInner {
+    height: 140vw;
+  }
+
+  /* @media (orientation: landscape) {
+    .mainVisualInner {
+      height: 100vh;
+    }
+  } */
+}
+
+.message {
+  color: var(--white);
+  font-size: 4.3rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  position: absolute;
+  top: calc(50% - 44px);
+  height: 70px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .message {
+    font-size: 3rem;
+    padding: 0 20px;
+  }
+}
+
+.text {
+  color: var(--white);
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}

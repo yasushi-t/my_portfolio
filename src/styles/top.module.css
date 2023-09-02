@@ -1,0 +1,31 @@
+.topWorksTitle {
+  font-size: 3.6rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin: 0 0 100px 0;
+  padding: 100px 0 0 0;
+}
+
+@media (max-width: 768px) {
+  .topWorksTitle {
+    font-size: 3rem;
+    margin: 0 0 50px 0;
+    padding: 50px 0 0 0;
+  }
+}
+
+.topWorksTitle span {
+  position: relative;
+}
+
+.topWorksTitle span:after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.1);
+  height: 70%;
+  width: 120%;
+  left: -10%;
+  bottom: -18%;
+}

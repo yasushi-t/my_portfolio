@@ -1,0 +1,75 @@
+.footerInner {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  padding: 0 50px;
+}
+
+@media (min-width: 769px) and (max-width: 1120px) {
+  .footerInner {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footerInner {
+    padding: 0 15px;
+  }
+}
+
+.message {
+  position: absolute;
+  font-size: 1.3rem;
+  line-height: 150%;
+  letter-spacing: 0.1em;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.copyright {
+  position: absolute;
+  font-size: 1.3rem;
+  bottom: 50px;
+  right: 50px;
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 768px) {
+  .copyright {
+    bottom: 120px;
+    right: 0;
+    left: 0;
+    text-align: center;
+  }
+}
+
+button.pagetop {
+  position: absolute;
+  display: block;
+  width: 180px;
+  height: 90px;
+  line-height: 90px;
+  margin: 0 auto;
+  border-radius: 90px 90px 0 0;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 1.6rem;
+  letter-spacing: 0.1em;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .pagetop {
+    width: 165px;
+    height: 82.5px;
+    line-height: 82.5px;
+    font-size: 1.5rem;
+  }
+}

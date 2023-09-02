@@ -1,0 +1,28 @@
+.breadcrumbs {
+  margin: 0 0 50px 0;
+}
+
+.breadcrumbs ul {
+  display: block;
+  justify-content: flex-start;
+}
+
+.breadcrumbs ul li {
+  display: inline;
+  font-size: 1.4rem;
+  line-height: 150%;
+  margin: 0 30px 0 0;
+}
+
+.breadcrumbs ul li a {
+  color: var(--accent);
+  position: relative;
+}
+
+.breadcrumbs ul li a::after {
+  content: '｜';
+  position: absolute;
+  color: var(--black);
+  right: -22px;
+  top: -1px;
+}

@@ -1,0 +1,39 @@
+{
+  "name": "microcms_blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint --dir src"
+  },
+  "dependencies": {
+    "@splidejs/react-splide": "^0.7.12",
+    "@types/node": "20.1.1",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "date-fns": "^2.30.0",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.1",
+    "lottie-react": "^2.4.0",
+    "microcms-js-sdk": "^2.4.0",
+    "next": "13.4.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-paginate": "^8.2.0",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "8.8.0",
+    "prettier": "2.8.8"
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "printWidth": 100
+  }
+}

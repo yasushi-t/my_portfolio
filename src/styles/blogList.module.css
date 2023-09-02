@@ -1,0 +1,115 @@
+.blogListTitle {
+  font-size: 2.8rem;
+  margin: 0 0 20px 0;
+}
+
+.blogList,
+.twoColumnBlogList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+@media (min-width: 769px) and (max-width: 1120px) {
+  .blogList,
+  .twoColumnBlogList {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .blogList,
+  .twoColumnBlogList {
+    display: block;
+  }
+}
+
+.blogList > div {
+  width: calc(50% - (50px / 2));
+}
+
+.twoColumnBlogList > div {
+  width: calc(50% - (50px / 2));
+}
+
+@media (min-width: 769px) and (max-width: 1120px) {
+  .blogList > div {
+    width: calc(50% - (30px / 2));
+  }
+
+  .twoColumnBlogList > div {
+    width: calc(50% - (30px / 2));
+  }
+}
+
+@media (max-width: 768px) {
+  .blogList > div,
+  .twoColumnBlogList > div {
+    width: 100%;
+    margin: 0 0 30px 0;
+  }
+}
+
+.blogList a,
+.twoColumnBlogList a {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.blogList a:hover,
+.twoColumnBlogList a:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.blogList h2,
+.twoColumnBlogList h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+}
+
+.blogList ul li,
+.twoColumnBlogList ul li {
+  display: inline;
+  font-size: 1.4rem;
+}
+
+.blogList img,
+.twoColumnBlogList img {
+  width: 100%;
+  height: auto;
+  margin: 0 0 15px 0;
+}
+
+.blogList p,
+.twoColumnBlogList p {
+  font-size: 1.6rem;
+}
+
+.blogCategoryTitle {
+  font-size: 2rem;
+}
+
+.rolesAndOutputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+}
+
+.role,
+.output {
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 5px 12px;
+  border-radius: 20px;
+  letter-spacing: 0.1em;
+  border: 1px solid #000;
+}
+
+.role {
+  background: var(--black);
+  color: var(--white);
+}

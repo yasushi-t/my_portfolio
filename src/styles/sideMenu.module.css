@@ -1,0 +1,32 @@
+.blogCategoryTitle {
+  font-size: 2rem;
+  margin: 0 0 20px 0;
+}
+@media (max-width: 768px) {
+  .blogCategoryTitle {
+    margin: 0 0 0 -5px;
+    padding: 0 5px;
+    position: absolute;
+    top: -12px;
+    background: #fff;
+  }
+}
+.blogCategoryList li {
+  margin: 0 0 10px 0;
+}
+.blogCategoryList li a {
+  font-size: 1.4rem;
+}
+@media (max-width: 768px) {
+  .blogCategoryList li {
+    margin: 0;
+  }
+}
+@media (max-width: 768px) {
+  .blogCategoryList li a {
+    display: block;
+    font-size: 1.6rem;
+    width: 100%;
+    padding: 10px 0;
+  }
+}

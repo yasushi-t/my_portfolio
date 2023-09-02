@@ -1,0 +1,173 @@
+.title {
+  font-size: 3rem;
+  margin: 0 0 30px 0;
+}
+
+.date {
+  font-size: 1.4rem;
+  margin: -20px 0 30px 0;
+}
+
+.image {
+  margin: 0 0 30px;
+  width: 100%;
+  height: auto;
+}
+
+.body {
+  font-size: 1.6rem;
+  line-height: 160%;
+}
+
+.body > p {
+  margin: 0 0 30px 0;
+}
+
+.body > p > img {
+  width: 100%;
+}
+
+.body > h2 {
+  margin: 0 0 20px 0;
+}
+
+.prevNextLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  gap: 40px;
+  padding: 50px 0 0 0;
+  margin: 50px 0 0 0;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  border-top: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+  .prevNextLink {
+    display: block;
+    padding: 40px 0 0 0;
+    margin: 40px 0 0 0;
+  }
+}
+
+.prevNextLink a {
+  cursor: pointer;
+  color: var(--accent);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .prevNextLink a {
+    display: block;
+    text-align: center;
+  }
+  .prevNextLink a:first-child {
+    padding: 0 0 10px 0;
+  }
+}
+
+/* works */
+.workBody :global .eyecatch {
+  margin: 0 0 80px 0;
+}
+
+@media (max-width: 768px) {
+  .workBody :global .eyecatch {
+    margin: 0 0 40px 0;
+  }
+}
+
+.workBody :global .eyecatch img {
+  width: 100%;
+  height: auto;
+}
+
+.workBody :global .images {
+  margin: 0 0 50px 0;
+  padding: 50px;
+  border: 1px solid #ddd;
+}
+
+.workBody :global .images img {
+  margin-bottom: 30px;
+}
+
+.workBody :global .images img:nth-child(n + 2) {
+  padding-top: 30px;
+  border-top: 1px solid #ddd;
+}
+.workBody :global .images img:last-child {
+  margin-bottom: 0;
+}
+
+.workBody :global .overview {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin: 0 0 80px 0;
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 768px) {
+  .workBody :global .overview {
+    margin: 0 0 40px 0;
+  }
+}
+
+.workBody :global .images img {
+  width: 100%;
+  height: auto;
+}
+
+.workBody :global .details {
+  display: flex;
+  gap: 50px;
+}
+
+@media (max-width: 768px) {
+  .workBody :global .details {
+    display: block;
+  }
+}
+
+.workBody :global .details .comment {
+  width: 70%;
+  font-size: 1.4rem;
+  background: #fafafa;
+  padding: 50px;
+  border-radius: 50px;
+}
+
+@media (max-width: 768px) {
+  .workBody :global .details .comment {
+    width: 100%;
+    padding: 15px 25px;
+    border-radius: 25px;
+    margin: 0 0 20px 0;
+  }
+}
+
+.workBody :global .details .commentNull {
+  width: 70%;
+}
+
+.workBody :global .details .credit {
+  font-size: 1.3rem;
+  width: 30%;
+  letter-spacing: 0.05em;
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .workBody :global .details .credit {
+    width: 100%;
+    padding: 0 25px;
+  }
+}
+
+.workBody :global .details .credit a {
+  color: var(--accent);
+  word-wrap: break-word;
+}
