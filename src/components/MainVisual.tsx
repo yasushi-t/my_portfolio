@@ -43,7 +43,7 @@ export const MainVisual = () => {
       <div className={style.text}>
         福岡県糸島市を拠点に活動しております。
         <br />
-        主な制作実績をご紹介いたします。
+        主な制作実績をご紹介いたします
       </div>
 
       <style jsx global>{`
