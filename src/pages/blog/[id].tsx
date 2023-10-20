@@ -6,7 +6,9 @@ import { Post } from '@/types/blog';
 import Link from 'next/link';
 import style from '@/styles/post.module.css';
 import Image from 'next/image';
-import { DateFormat } from '@/components/dateFormat';
+// import { useEffect, useState } from 'react';
+// import ImageWithLoading from '@/components/ImageWithLoading';
+// import Blur from '@/images/blur.png';
 
 type Params = {
   id: string;
@@ -105,11 +107,13 @@ const Post: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
                 <Image
                   key={index}
                   src={image.url}
-                  width='1200'
-                  height='800'
+                  fill
                   alt={post.title}
                   priority
+                  // placeholder='blur'
+                  // blurDataURL={Blur.src}
                 />
+                // <ImageWithLoading key={index} src={image.url} alt={post.title} />
               ))}
             </div>
           )}
